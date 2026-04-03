@@ -1,0 +1,57 @@
+# --- Configurações e Segurança (CRÍTICO) ---
+.env
+config/credentials.json
+token.json
+*.json
+# Caso você tenha outros JSONs que SEJAM do projeto,
+# ignore a linha acima e use apenas as específicas abaixo:
+# credentials.json
+# client_secret.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Google & Jupyter ---
+.ipynb_checkpoints
+.google-auth-state/
+
+# --- Logs e Dados Temporários ---
+*.log
+data/raw/
+data/processed/
+# Se você baixar CSVs temporários da API, ignore-os:
+*.csv
+*.xlsx
+
+# --- Sistema (Windows/Mac) ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
